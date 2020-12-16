@@ -1,0 +1,45 @@
+# Places You've Been - Lesson 33 of Basic Web Applications
+
+### Created by: Eric Stratton, Garret Brown, Austin Schrader vs. 12/16/2020
+
+## Description
+
+Simple web page to add places you've visited to an online travel diary. This web app practices using C# & .NET to create a tested app that uses MVC and OOP architecture. 
+
+## Setup
+
+_C# and .NET needs to be installed for this project to work. If you do not have it, please go to [here for Windows](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.203-windows-x64-installer) and [here for MacOS](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.106-macos-x64-installer)._
+
+1. Download this repository by clicking the "Clone or Download" button
+2. Navigate to the folder where it downloaded
+3. Now open your terminal and navigate to Bakery.Solution > Bakery.Tests
+4. Type in `dotnet restore` to download necessary packages
+5. Then type in `dotnet run` to run the application
+6. Congratulations, this is the program!
+7. To get an output, enter 3 values one-at-a-time
+
+## Specs
+
+- Enter a travel destination you've been and information on that destination
+- Travel destination and info stored in an object with a unique ID
+- Access different locations based on their unique ID
+
+## Known Bugs
+
+At this time, there are no known bugs. If you see spot a bug feel free to make a pull request.
+
+## Technologies Used
+
+- _C#_
+- _.NET_
+- _Object Oriented Programming_
+- _MSTest_
+- _Markdown_
+
+## Licensing
+
+Copyright (c) _2020_ Eric Stratton, Garret Brown, Austing Schrader
+
+Licensed under MIT 
+
+Co-Authored-by Garrett Brown <garrettpaulbrown@gmail.com>
