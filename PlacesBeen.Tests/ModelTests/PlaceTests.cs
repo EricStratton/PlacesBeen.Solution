@@ -17,10 +17,10 @@ namespace PlacesBeen.Tests
     [TestMethod]
     public void GetCityName_ReturnsCityName_String()
     {
-      string city = "Seattle";
-      Place newPlace = new Place(city);
-      string result = newPlace.CityName;
-      Assert.AreEqual(city, result);
+      string myCity = "Seattle";
+      Place newPlace = new Place(myCity);
+      string result = newPlace.City;
+      Assert.AreEqual(myCity, result);
     }   
   }
 }

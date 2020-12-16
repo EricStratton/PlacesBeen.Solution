@@ -4,11 +4,11 @@ namespace PlacesBeen.Models
   {
     public class Place
     {
-      public string CityName { get; set; }
+      public string City { get; set; }
 
-      public Place(string cityName)
+      public Place(string city)
       {
-        CityName = cityName;
+        City = city;
       }
     }
   }
