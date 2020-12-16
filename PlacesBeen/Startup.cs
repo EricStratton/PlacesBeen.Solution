@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspnetCore.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -11,8 +11,8 @@ namespace PlacesBeen
     public Startup(IHostingEnvironment env)
     {
       var builder = new ConfigurationBuilder()
-        .SetBasePath(env.ContentRootPath)
-        .AddEnvironmentVariables();
+          .SetBasePath(env.ContentRootPath)
+          .AddEnvironmentVariables();
       Configuration = builder.Build();
     }
 
@@ -27,19 +27,20 @@ namespace PlacesBeen
     {
       app.UseDeveloperExceptionPage();
 
-      app.UseStaticFiles();
+      app.UseStaticFiles(); 
 
-      app.UseMvc(routes => 
+      app.UseMvc(routes =>
       {
-        routes.MapRoute{
+        routes.MapRoute(
           name: "default",
           template: "{controller=Home}/{action=Index}/{id?}");
       });
 
-      app.Run(async (context) => 
+      app.Run(async (context) =>
       {
         await context.Response.WriteAsync("Something went wrong!");
       });
+
     }
   }
 }
