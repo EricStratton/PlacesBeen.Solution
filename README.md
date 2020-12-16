@@ -29,12 +29,6 @@ _C# and .NET needs to be installed for this project to work. If you do not have 
 
 At this time, there are no known bugs. If you see spot a bug feel free to make a pull request.
 
-## Support
-For assistance, please contact the co-authors below:
-
-* Co-authored-by: Garrett Brown <garrettpaulbrown@gmail.com>
-* 
-* 
 
 ## Technologies Used
 
