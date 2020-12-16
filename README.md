@@ -12,11 +12,12 @@ _C# and .NET needs to be installed for this project to work. If you do not have 
 
 1. Download this repository by clicking the "Clone or Download" button
 2. Navigate to the folder where it downloaded
-3. Now open your terminal and navigate to Bakery.Solution > Bakery.Tests
+3. Now open your terminal and navigate to PlacesBeen.Solution > PlacesBeen.Tests
 4. Type in `dotnet restore` to download necessary packages
 5. Then type in `dotnet run` to run the application
+6. Navigate to localhost:5000
 6. Congratulations, this is the program!
-7. To get an output, enter 3 values one-at-a-time
+7. Follow the UI to enter data into the program
 
 ## Specs
 
@@ -28,6 +29,13 @@ _C# and .NET needs to be installed for this project to work. If you do not have 
 
 At this time, there are no known bugs. If you see spot a bug feel free to make a pull request.
 
+## Support
+For assistance, please contact the co-authors below:
+
+* Co-Authored-by Garrett Brown <garrettpaulbrown@gmail.com>
+* 
+* 
+
 ## Technologies Used
 
 - _C#_
@@ -38,8 +46,7 @@ At this time, there are no known bugs. If you see spot a bug feel free to make a
 
 ## Licensing
 
-Copyright (c) _2020_ Eric Stratton, Garret Brown, Austing Schrader
+Copyright (c) _2020_ Eric Stratton, Garret Brown, Austin Schrader
 
 Licensed under MIT 
 
-Co-Authored-by Garrett Brown <garrettpaulbrown@gmail.com>
