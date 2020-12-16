@@ -1,4 +1,4 @@
-# Places You've Been - Lesson 33 of Basic Web Applications
+# Places You've Been - #33 of Basic Web Applications
 
 ### Created by: Eric Stratton, Garret Brown, Austin Schrader vs. 12/16/2020
 
@@ -32,7 +32,7 @@ At this time, there are no known bugs. If you see spot a bug feel free to make a
 ## Support
 For assistance, please contact the co-authors below:
 
-* Co-Authored-by Garrett Brown <garrettpaulbrown@gmail.com>
+* Co-authored-by: Garrett Brown <garrettpaulbrown@gmail.com>
 * 
 * 
 
