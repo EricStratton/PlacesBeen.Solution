@@ -10,6 +10,7 @@ namespace PlacesBeen.Models
       public Place(string city)
       {
         City = city;
+        _instances.Add(this);
       }
 
       public static List<Place> GetAll()
